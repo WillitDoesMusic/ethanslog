@@ -44,8 +44,8 @@ p {
 }
 
 .aspect-ratio-thing {
-  /* gotta change bg color for .centerimage and .backpage too cuz this entire thing was coded by a dumbass*/
-  width: 70%;
+  /* gotta change bg color and width for .centerimage and .backpage too cuz this entire thing was coded by a dumbass*/
+  width: 75%;
   margin: auto;
   background-color: rgb(238, 253, 255);
   min-height: 100%;
@@ -64,7 +64,7 @@ p {
   display: flex;
   justify-content: center;
   background-color: rgb(238, 253, 255);
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 1%;
 }
@@ -73,7 +73,7 @@ p {
   display: flex;
   justify-content: right;
   background-color: rgb(238, 253, 255);
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 1%;
 }
