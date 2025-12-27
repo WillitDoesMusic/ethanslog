@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  cursor: url("silly.cur"), auto;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(4, 0, 24);
+  margin: 0;
+  height: 100%;
+  cursor: url("silly.cur"), auto;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 32pt;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+li {
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 18pt;
+  font-style: italic;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 16pt;
+  font-weight: normal;
+  text-indent: 50px;
+}
+
+.firstp {
+  color: rgb(0, 0, 0);
+  font-size: 12pt;
+  font-weight: normal;
+  text-indent: 0px;
+  text-align: center;
+}
+
+.aspect-ratio-thing {
+  /* gotta change bg color for .centerimage and .backpage too cuz this entire thing was coded by a dumbass*/
+  width: 70%;
+  margin: auto;
+  background-color: rgb(238, 253, 255);
+  min-height: 100%;
+  margin-top: 0;
+  cursor: url("silly.cur"), auto;
+  padding: 1%;
+}
+.aspect-ratio-thing h1 {
+  margin-top: 0;
+}
+.aspect-ratio-thing p {
+  margin-top: 0;
+}
+
+.centerimage {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(238, 253, 255);
+  width: 70%;
+  margin: auto;
+  padding: 1%;
+}
+
+.backpage {
+  display: flex;
+  justify-content: right;
+  background-color: rgb(238, 253, 255);
+  width: 70%;
+  margin: auto;
+  padding: 1%;
+}
