@@ -77,3 +77,8 @@ p {
   margin: auto;
   padding: 1%;
 }
+
+.footnote {
+  font-size: 10pt;
+  font-style: italic;
+}
